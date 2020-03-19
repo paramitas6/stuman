@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Fugue";
+  src: url("https://saanayoga.com/wp-content/uploads/et-fonts/fugue-regular.ttf") format("truetype"), url("https://saanayoga.com/wp-content/uploads/et-fonts/fugue-regular.otf") format("opentype"); }
+
+@font-face {font-family: "Fugsue"; src: url("//db.onlinewebfonts.com/t/cf3b1825f5b015ebd8dcdc3e97ac129c.eot"); src: url("//db.onlinewebfonts.com/t/cf3b1825f5b015ebd8dcdc3e97ac129c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf3b1825f5b015ebd8dcdc3e97ac129c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf3b1825f5b015ebd8dcdc3e97ac129c.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf3b1825f5b015ebd8dcdc3e97ac129c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf3b1825f5b015ebd8dcdc3e97ac129c.svg#Fugue") format("svg"); }
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body, input, textarea, select {
+  font-family: Fugsue;
+
+}
+
+.saana{
+  height: 800px;
+  background-color: #FFFFFF!important;
+  border-bottom-style:solid;
+  border-width:0.1px;
+  border-color: #DFDFDF;
+  font-family: "Fugsue";
+  font-size:15px;
+
+}
